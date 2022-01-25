@@ -1,8 +1,9 @@
 import React, { ReactNode } from 'react';
-import { AppBar, Box, Container, Grid, IconButton, Link, Menu, MenuItem, styled, Toolbar, Typography, useMediaQuery } from '@mui/material';
+import { AppBar, Box, Container, Grid, IconButton, Menu, MenuItem, styled, Toolbar, Typography, useMediaQuery } from '@mui/material';
 import RamenDiningRoundedIcon from '@mui/icons-material/RamenDiningRounded';
 import MenuIcon from '@mui/icons-material/Menu';
 import { SystemConst } from '../const';
+import { Link } from 'react-router-dom';
 
 const borderSetting = '1px dotted #ffffff';
 
@@ -51,7 +52,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                     </Typography>
                   </Box>
                   <Box textAlign={'center'} sx={{ borderTop: borderSetting }}>
-                    <Link href={SystemConst.Path.EVENTS}>
+                    <Link to={SystemConst.Path.EVENTS}>
                       <Item>
                         {SystemConst.Page.EVENTS}
                       </Item>
@@ -88,7 +89,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               onClose={handleClose}
               PaperProps={{ sx: { bgcolor: 'primary.main' } }}
             >
-              <Link href={SystemConst.Path.EVENTS}>
+              <Link to={SystemConst.Path.EVENTS}>
                 <MenuItem sx={{ color: '#ffffff' }}>
                   {SystemConst.Page.EVENTS}
                 </MenuItem>
