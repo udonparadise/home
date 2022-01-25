@@ -32,7 +32,7 @@ const legend = [
   { icon: <MarkunreadMailboxIcon color='primary' />, group: 'S/mileage', oshi: '' },
 ];
 
-const Home: React.FC = () => {
+const Top: React.FC = () => {
   return (
     <Layout>
       <Typography variant='h4' fontWeight={'bold'}>
@@ -86,4 +86,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default Top;
