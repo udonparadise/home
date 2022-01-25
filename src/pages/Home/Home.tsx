@@ -14,7 +14,7 @@ import Layout from '../../layouts/Layout';
 
 const data = [
   { icon: <EmojiEmotionsIcon color='primary' />, primary: 'Udon', secondary: 'from the name of my favorite food' },
-  { icon: <WorkIcon color='primary' />, primary: 'Programmer', secondary: 'working for my favorite idol' },
+  { icon: <WorkIcon color='primary' />, primary: 'Programmer', secondary: 'working for my favorite idol!' },
   { icon: <RoomIcon color='primary' />, primary: 'Nagano, Japan', secondary: 'born in Niigata' },
   { icon: <FavoriteIcon color='primary' />, primary: 'Hello! Project', secondary: 'ghost of Berryz Kobo fan' },
 ];
