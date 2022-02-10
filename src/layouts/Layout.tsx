@@ -44,9 +44,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <Grid item xs={3} sx={{ height: '100%' }}>
                 <MenuContainer>
                   <Box textAlign={'center'} sx={{ p: 4 }}>
-                    <IconButton href={SystemConst.Path.HOME}>
+                    <Link to={SystemConst.Path.HOME}>
                       <RamenDiningRoundedIcon fontSize='large' sx={{ color: '#ffffff' }} />
-                    </IconButton>
+                    </Link>
                     <Typography variant='h6' fontWeight={'bold'}>
                       {SystemConst.PAGE_NAME}
                     </Typography>
@@ -71,9 +71,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <>
             <AppBar>
               <Toolbar>
-                <IconButton sx={{ mr: 1 }} href={SystemConst.Path.HOME}>
-                  <RamenDiningRoundedIcon sx={{ color: '#ffffff' }} />
-                </IconButton>
+                <Link to={SystemConst.Path.HOME}>
+                  <RamenDiningRoundedIcon sx={{ color: '#ffffff', mr: 1 }} />
+                </Link>
                 <Typography variant='h6' fontWeight={'bold'} component={'div'} sx={{ flexGrow: 1 }}>
                   {SystemConst.PAGE_NAME}
                 </Typography>

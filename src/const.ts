@@ -11,3 +11,16 @@ export namespace SystemConst {
     export const EVENTS = 'events';
   }
 }
+
+/*　グループ名 */
+export namespace Group {
+  export const HP = 'Hello! Project';
+  export const BERRYZ = 'Berryz工房';
+  export const ANGE = 'アンジュルム';
+  export const JUICE = 'Juice=Juice';
+  export const TSUBAKI = 'つばきファクトリー';
+  export const BEYO = 'BEYOOOOONDS';
+  export const HPK = 'ハロプロ研修生';
+  export const HPKU = 'ハロプロ研修生ユニット';
+  export const ML = 'M-Line';
+}
