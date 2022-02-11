@@ -5,10 +5,12 @@ export namespace SystemConst {
   export namespace Path {
     export const HOME = '/';
     export const EVENTS = '/events';
+    export const BEST100 = '/best100';
   }
   /* page名前 */
   export namespace Page {
-    export const EVENTS = 'events';
+    export const EVENTS = 'Events';
+    export const BEST100 = 'Best100';
   }
 }
 
