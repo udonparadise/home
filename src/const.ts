@@ -18,6 +18,7 @@ export namespace Group {
   export const BERRYZ = 'Berryz工房';
   export const ANGE = 'アンジュルム';
   export const JUICE = 'Juice=Juice';
+  export const KOBUSHI = 'こぶしファクトリー';
   export const TSUBAKI = 'つばきファクトリー';
   export const BEYO = 'BEYOOOOONDS';
   export const HPK = 'ハロプロ研修生';
