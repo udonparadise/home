@@ -1,6 +1,6 @@
-import { song } from '../model/Best100';
+import { song } from '../model/Song';
 
-export const best100: song[] = [
+export const select100: song[] = [
   {
     name: 'I&YOU&I&YOU&I',
     artist: 'タンポポ',

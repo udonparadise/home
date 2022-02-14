@@ -57,9 +57,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                         {SystemConst.Page.EVENTS}
                       </Item>
                     </Link>
-                    <Link to={SystemConst.Path.BEST100}>
+                    <Link to={SystemConst.Path.SELECT100}>
                       <Item>
-                        {SystemConst.Page.BEST100}
+                        {SystemConst.Page.SELECT100}
                       </Item>
                     </Link>
                   </Box>
@@ -99,9 +99,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                   {SystemConst.Page.EVENTS}
                 </MenuItem>
               </Link>
-              <Link to={SystemConst.Path.BEST100}>
+              <Link to={SystemConst.Path.SELECT100}>
                 <MenuItem sx={{ color: '#ffffff' }}>
-                  {SystemConst.Page.BEST100}
+                  {SystemConst.Page.SELECT100}
                 </MenuItem>
               </Link>
             </Menu>

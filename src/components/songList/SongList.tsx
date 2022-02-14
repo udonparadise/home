@@ -1,5 +1,5 @@
 import { Avatar, List, ListItem, ListItemAvatar, ListItemText } from '@mui/material';
-import { song } from '../../model/Best100';
+import { song } from '../../model/Song';
 
 type SongListProps = {
   data: song[]
