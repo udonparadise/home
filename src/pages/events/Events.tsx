@@ -3,7 +3,7 @@ import { Box, Tab, Tabs, tabsClasses, Typography } from '@mui/material';
 import Layout from '../../layouts/Layout';
 import { SystemConst } from '../../const';
 import EventList from '../../components/eventList/EventList';
-import { e2021, e2020, e2019, e2018, e2017, e2016, e2015, e2014, e2013 } from '../../data/EventData';
+import { events } from '../../data/EventData';
 import { event } from '../../model/Event';
 
 type TabPanelProps = {
@@ -49,26 +49,18 @@ const Events: React.FC = () => {
           }}
         >
           <Tab label="All" />
-          <Tab label="2021" />
-          <Tab label="2020" />
-          <Tab label="2019" />
-          <Tab label="2018" />
-          <Tab label="2017" />
-          <Tab label="2016" />
-          <Tab label="2015" />
-          <Tab label="2014" />
-          <Tab label="2013" />
+          {
+            events.map(event => {
+              return <Tab label={event.year} />;
+            })
+          }
         </Tabs>
       </Box>
-      <TabPanel value={value} index={1} year={2021} data={e2021} />
-      <TabPanel value={value} index={2} year={2020} data={e2020} />
-      <TabPanel value={value} index={3} year={2019} data={e2019} />
-      <TabPanel value={value} index={4} year={2018} data={e2018} />
-      <TabPanel value={value} index={5} year={2017} data={e2017} />
-      <TabPanel value={value} index={6} year={2016} data={e2016} />
-      <TabPanel value={value} index={7} year={2015} data={e2015} />
-      <TabPanel value={value} index={8} year={2014} data={e2014} />
-      <TabPanel value={value} index={9} year={2013} data={e2013} />
+      {
+        events.map((event, index) => {
+          return <TabPanel value={value} index={index + 1} year={event.year} data={event.data} />;
+        })
+      }
     </Layout>
   );
 };

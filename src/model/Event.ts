@@ -6,5 +6,10 @@ export type event = {
   member?: string,
   site?: string,
   time?: string,
-  note?: string,
+  note?: string
 };
+
+export type eventItem = {
+  year: number,
+  data: event[]
+}

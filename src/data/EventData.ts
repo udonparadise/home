@@ -1,7 +1,7 @@
 import { Group } from '../const';
-import { event } from '../model/Event';
+import { eventItem, event } from '../model/Event';
 
-export const e2021: event[] = [
+const e2021: event[] = [
   {
     month: 12,
     day: 11,
@@ -241,7 +241,7 @@ export const e2021: event[] = [
     note: '色紙B',
   },
   {
-    month:2 ,
+    month: 2,
     day: 13,
     group: Group.ML,
     name: 'M-line Special 2021～Make a Wish!～',
@@ -266,7 +266,7 @@ export const e2021: event[] = [
   },
 ];
 
-export const e2020: event[] = [
+const e2020: event[] = [
   {
     month: 12,
     day: 19,
@@ -374,7 +374,7 @@ export const e2020: event[] = [
   },
 ];
 
-export const e2019: event[] = [
+const e2019: event[] = [
   {
     month: 12,
     day: 21,
@@ -473,7 +473,7 @@ export const e2019: event[] = [
   },
 ];
 
-export const e2018: event[] = [
+const e2018: event[] = [
   {
     month: 9,
     day: 17,
@@ -517,7 +517,7 @@ export const e2018: event[] = [
   },
 ];
 
-export const e2017: event[] = [
+const e2017: event[] = [
   {
     month: 11,
     day: 19,
@@ -569,7 +569,7 @@ export const e2017: event[] = [
   },
 ];
 
-export const e2016: event[] = [
+const e2016: event[] = [
   {
     month: 11,
     day: 7,
@@ -598,7 +598,7 @@ export const e2016: event[] = [
   },
 ];
 
-export const e2015: event[] = [
+const e2015: event[] = [
   {
     month: 11,
     day: 24,
@@ -668,7 +668,7 @@ export const e2015: event[] = [
   },
 ];
 
-export const e2014: event[] = [
+const e2014: event[] = [
   {
     month: 12,
     day: 23,
@@ -711,7 +711,7 @@ export const e2014: event[] = [
   },
 ];
 
-export const e2013: event[] = [
+const e2013: event[] = [
   {
     month: 11,
     day: 29,
@@ -720,4 +720,16 @@ export const e2013: event[] = [
     site: '日本武道館',
     time: '18:30',
   },
+];
+
+export const events: eventItem[] = [
+  { year: 2021, data: e2021 },
+  { year: 2020, data: e2020 },
+  { year: 2019, data: e2019 },
+  { year: 2018, data: e2018 },
+  { year: 2017, data: e2017 },
+  { year: 2016, data: e2016 },
+  { year: 2015, data: e2015 },
+  { year: 2014, data: e2014 },
+  { year: 2013, data: e2013 },
 ];
