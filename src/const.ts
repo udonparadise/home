@@ -17,6 +17,7 @@ export namespace SystemConst {
 /*　グループ名 */
 export namespace Group {
   export const HP = 'Hello! Project';
+  export const MM = 'モーニング娘。';
   export const BERRYZ = 'Berryz工房';
   export const ANGE = 'アンジュルム';
   export const JUICE = 'Juice=Juice';
@@ -26,4 +27,10 @@ export namespace Group {
   export const HPK = 'ハロプロ研修生';
   export const HPKU = 'ハロプロ研修生ユニット';
   export const ML = 'M-Line';
+  export const MA = '松浦亜弥';
+  export const FM = '藤本美貴';
+  export const GM = '後藤真希';
+  export const GAM = 'GAM';
+  export const CG = 'カントリー・ガールズ';
+  export const CUTE = '℃-ute';
 }

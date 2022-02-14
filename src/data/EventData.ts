@@ -554,7 +554,7 @@ export const e2017: event[] = [
   {
     month: 5,
     day: 14,
-    group: Group.ML,
+    group: Group.FM,
     name: '藤本美貴15周年記念！大感謝ライブ！～ミキティアイドルやります！春の大集会！～',
     site: '新宿ReNY',
     time: '14:30',

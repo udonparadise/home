@@ -19,6 +19,42 @@ const Item = styled(Box)(({ theme }) => ({
   padding: theme.spacing(1),
 }));
 
+type MenuItem = {
+  name: string,
+  path: string
+};
+
+type MenuItemProps = {
+  item: MenuItem;
+};
+
+const MenuItemPC: React.FC<MenuItemProps> = (props) => {
+  const { item } = props;
+  return (
+    <Link to={item.path}>
+      <Item>
+        {item.name}
+      </Item>
+    </Link>
+  );
+};
+
+const MenuItemMb: React.FC<MenuItemProps> = (props) => {
+  const { item } = props;
+  return (
+    <Link to={item.path}>
+      <MenuItem sx={{ color: '#ffffff' }}>
+        {item.name}
+      </MenuItem>
+    </Link>
+  );
+};
+
+const MenuItems: MenuItem[] = [
+  { name: SystemConst.Page.EVENTS, path: SystemConst.Path.EVENTS },
+  { name: SystemConst.Page.SELECT100, path: SystemConst.Path.SELECT100 },
+];
+
 type LayoutProps = {
   children: ReactNode;
 };
@@ -52,16 +88,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                     </Typography>
                   </Box>
                   <Box textAlign={'center'} sx={{ borderTop: borderSetting }}>
-                    <Link to={SystemConst.Path.EVENTS}>
-                      <Item>
-                        {SystemConst.Page.EVENTS}
-                      </Item>
-                    </Link>
-                    <Link to={SystemConst.Path.SELECT100}>
-                      <Item>
-                        {SystemConst.Page.SELECT100}
-                      </Item>
-                    </Link>
+                    {
+                      MenuItems.map(menuItem => {
+                        return <MenuItemPC item={menuItem} />;
+                      })
+                    }
                   </Box>
                 </MenuContainer>
               </Grid>
@@ -94,16 +125,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               onClose={handleClose}
               PaperProps={{ sx: { bgcolor: 'primary.main' } }}
             >
-              <Link to={SystemConst.Path.EVENTS}>
-                <MenuItem sx={{ color: '#ffffff' }}>
-                  {SystemConst.Page.EVENTS}
-                </MenuItem>
-              </Link>
-              <Link to={SystemConst.Path.SELECT100}>
-                <MenuItem sx={{ color: '#ffffff' }}>
-                  {SystemConst.Page.SELECT100}
-                </MenuItem>
-              </Link>
+              {
+                MenuItems.map(menuItem => {
+                  return <MenuItemMb item={menuItem} />;
+                })
+              }
             </Menu>
             <Container>
               <Box sx={{ my: 2 }}>

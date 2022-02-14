@@ -31,6 +31,24 @@ export function stringToColor(name: string) {
     case Group.KOBUSHI:
       color = '#F72F1F';
       break;
+    case Group.MM:
+      color = '#E5457D';
+      break;
+    case Group.MA:
+      color = '#ff69b4';
+      break;
+    case Group.FM:
+      color = '#ff0000';
+      break;
+    case Group.CG:
+      color = '#56BF00';
+      break;
+    case Group.CUTE:
+      color = '#92d7e7';
+      break;
+    case Group.GM:
+      color = '#ffd700';
+      break;
     default:
       color = '#0075C2';
   }
