@@ -45,7 +45,7 @@ const EventListItem: React.FC<EventListItemProps> = (props) => {
   const { data } = props;
 
   return (
-    <ListItem alignItems='flex-start'>
+    <ListItem alignItems='flex-start' key={data.month + data.day + data.name}>
       <ListItemAvatar>
         <Avatar {...setAvatar(data)} variant="rounded" />
       </ListItemAvatar>

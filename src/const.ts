@@ -5,11 +5,13 @@ export namespace SystemConst {
   export namespace Path {
     export const HOME = '/';
     export const EVENTS = '/events';
+    export const DISC = '/disc';
     export const SELECT100 = '/select100';
   }
   /* page名前 */
   export namespace Page {
     export const EVENTS = 'Events';
+    export const DISC = 'Disc';
     export const SELECT100 = 'Select100';
   }
 }

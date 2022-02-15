@@ -15,7 +15,7 @@ const SongListItem: React.FC<SongListItemProps> = (props) => {
   const { index, song } = props;
 
   return (
-    <ListItem>
+    <ListItem key={song.name}>
       <ListItemAvatar>
         <Avatar sx={{ bgcolor: stringToColor(song.artist) }}>{index + 1}</Avatar>
       </ListItemAvatar>
