@@ -13,22 +13,22 @@ import MarkunreadMailboxIcon from '@mui/icons-material/MarkunreadMailbox';
 import Layout from '../../layouts/Layout';
 
 const data = [
-  { icon: <EmojiEmotionsIcon color='primary' />, primary: 'Udon', secondary: 'from the name of my favorite food' },
-  { icon: <WorkIcon color='primary' />, primary: 'Programmer', secondary: 'working for my favorite idol!' },
-  { icon: <RoomIcon color='primary' />, primary: 'Nagano, Japan', secondary: 'born in Niigata' },
-  { icon: <FavoriteIcon color='primary' />, primary: 'Hello! Project', secondary: 'ghost of Berryz Kobo fan' },
+  { icon: <EmojiEmotionsIcon color='primary' />, primary: 'うどん', secondary: '好きな食べ物の名前より' },
+  { icon: <WorkIcon color='primary' />, primary: 'プログラマ', secondary: '黙々とコーディングしていたい' },
+  { icon: <RoomIcon color='primary' />, primary: '長野', secondary: '出身は新潟' },
+  { icon: <FavoriteIcon color='primary' />, primary: 'Hello! Project', secondary: 'ベリヲタの亡霊' },
 ];
 
 const fav = [
-  { icon: <PanToolIcon color='primary' />, group: 'BEYOOOOONDS', oshi: 'Okamura Minami' },
-  { icon: <LocalBarIcon color='primary' />, group: 'Juice=Juice', oshi: 'Ebata Kisaki' },
-  { icon: <OndemandVideoIcon color='primary' />, group: 'OCHA NORMA', oshi: 'Kitahara Momo' },
-  { icon: <LooksIcon color='primary' />, group: 'Hellopro Kenshusei', oshi: '' },
+  { icon: <PanToolIcon color='primary' />, group: 'BEYOOOOONDS', oshi: '岡村美波' },
+  { icon: <LocalBarIcon color='primary' />, group: 'Juice=Juice', oshi: '江端妃咲 / 高木紗友希' },
+  { icon: <OndemandVideoIcon color='primary' />, group: 'OCHA NORMA', oshi: '北原もも' },
+  { icon: <LooksIcon color='primary' />, group: 'ハロプロ研修生', oshi: '' },
 ];
 
 const legend = [
-  { icon: <FactoryIcon color='primary' />, group: 'Berryz Kobo', oshi: 'Sudo Maasa' },
-  { icon: <AutoAwesomeIcon color='primary' />, group: 'GAM', oshi: 'Matsuura Aya / Fujimoto Miki' },
+  { icon: <FactoryIcon color='primary' />, group: 'Berryz工房', oshi: '須藤茉麻' },
+  { icon: <AutoAwesomeIcon color='primary' />, group: 'GAM', oshi: '松浦亜弥 / 藤本美貴' },
   { icon: <MarkunreadMailboxIcon color='primary' />, group: 'S/mileage', oshi: '' },
 ];
 

@@ -11,7 +11,7 @@ const Select100: React.FC = () => {
         {SystemConst.Page.SELECT100}
       </Typography>
       <Typography sx={{ my: 1 }}>
-        {'Personally favorite songs (Order of the Japanese syllabary)'}
+        {'個人的に好きな曲を100曲選んでみる（まだ途中）'}
       </Typography>
       <SongList data={select100} />
     </Layout>

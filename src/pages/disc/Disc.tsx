@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Box, List, ListItem, ListItemIcon, Tab, Tabs, tabsClasses, Typography } from '@mui/material';
+import { Box, List, ListItem, ListItemIcon, ListItemText, Tab, Tabs, tabsClasses, Typography } from '@mui/material';
 import AudiotrackIcon from '@mui/icons-material/Audiotrack';
 import Layout from '../../layouts/Layout';
 import { SystemConst } from '../../const';
@@ -7,27 +7,33 @@ import { discList } from '../../data/DiscData';
 import { discInfo } from '../../model/Disc';
 
 type TabPanelProps = {
+  artist: string,
   value: number,
   index: number,
   data: discInfo[]
 };
 
 const TabPanel: React.FC<TabPanelProps> = (props) => {
-  const { value, index, data } = props;
+  const { artist, value, index, data } = props;
 
   return (
     <Box sx={{ my: 2 }} hidden={value !== index && value !== 0}>
+      <Typography variant='h6' fontWeight={'bold'}>
+        {artist}
+      </Typography>
       <List>
         {
           data.map(disc => {
             return (
-              <ListItem key={disc.name} disablePadding>
+              <ListItem key={disc.name} alignItems='flex-start' disablePadding>
                 <ListItemIcon>
                   <AudiotrackIcon fontSize='small' />
                 </ListItemIcon>
-                <Typography sx={{ textDecoration: disc.doNotHave ? 'line-through' : 'none' }}>
-                  {disc.name}
-                </Typography>
+                <ListItemText primary={
+                  <Typography sx={{ textDecoration: disc.doNotHave ? 'line-through' : 'none' }}>
+                    {disc.name}
+                  </Typography>}
+                />
               </ListItem>
             )
           })
@@ -48,6 +54,9 @@ const Disc: React.FC = () => {
     <Layout>
       <Typography variant='h4' fontWeight={'bold'}>
         {SystemConst.Page.DISC}
+      </Typography>
+      <Typography sx={{ my: 1 }}>
+        {'収集した映像作品を自分用にメモしているだけ'}
       </Typography>
       <Box sx={{ flexGrow: 1, my: 2 }}>
         <Tabs
@@ -71,7 +80,7 @@ const Disc: React.FC = () => {
       </Box>
       {
         discList.map((disc, index) => {
-          return <TabPanel value={value} index={index + 1} data={disc.disc} />;
+          return <TabPanel artist={disc.artist} value={value} index={index + 1} data={disc.disc} />;
         })
       }
     </Layout>
