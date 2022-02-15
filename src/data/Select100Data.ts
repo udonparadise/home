@@ -9,6 +9,12 @@ export const select100: song[] = [
     year: 2002
   },
   {
+    name: '愛の園 〜Touch My Heart!〜',
+    artist: Group.MM,
+    artistSub: 'モーニング娘。おとめ組',
+    year: 2003
+  },
+  {
     name: '熱い魂',
     artist: Group.GAM,
     year: 2007
@@ -45,9 +51,19 @@ export const select100: song[] = [
     year: 2003
   },
   {
+    name: 'イジワルしないで 抱きしめてよ',
+    artist: Group.JUICE,
+    year: 2013
+  },
+  {
     name: '宇宙でLa Ta Ta',
     artist: '太陽とシスコムーン',
     year: 1999
+  },
+  {
+    name: 'Uraha=Lover',
+    artist: Group.ANGE,
+    year: 2018
   },
   {
     name: '…H',
@@ -107,9 +123,24 @@ export const select100: song[] = [
     year: 2010
   },
   {
+    name: '恋の呪縛',
+    artist: Group.BERRYZ,
+    year: 2004
+  },
+  {
+    name: '今夜だけ浮かれたかった',
+    artist: Group.TSUBAKI,
+    year: 2018
+  },
+  {
     name: 'サンサンGOGO',
     artist: 'MilkyWay',
     year: 2008
+  },
+  {
+    name: 'Just Try!',
+    artist: Group.TSUBAKI,
+    year: 2017
   },
   {
     name: '消失点〜Vanishing Point〜',
@@ -147,6 +178,11 @@ export const select100: song[] = [
     year: 2005
   },
   {
+    name: 'スッペシャル ジェネレ〜ション',
+    artist: Group.BERRYZ,
+    year: 2005
+  },
+  {
     name: 'Say! Hello!',
     artist: Group.HPK,
     year: 2014
@@ -178,6 +214,11 @@ export const select100: song[] = [
     artist: Group.MM,
     artistSub: '鞘師里保・小田さくら',
     year: 2013
+  },
+  {
+    name: '単純すぎなの私…',
+    artist: Group.BERRYZ,
+    year: 2011
   },
   {
     name: '低温火傷',
@@ -227,10 +268,10 @@ export const select100: song[] = [
     year: 2015
   },
   {
-    name: 'ハッピー☆彡',
+    name: 'パパンケーキ',
     artist: Group.MM,
     artistSub: '月島きらり starring 久住小春',
-    year: 2007
+    year: 2008
   },
   {
     name: '引越せない気持',
@@ -241,6 +282,17 @@ export const select100: song[] = [
     name: '独り占め',
     artist: Group.TSUBAKI,
     year: 2016
+  },
+  {
+    name: 'Vivid Midnight',
+    artist: Group.JUICE,
+    year: 2018
+  },
+  {
+    name: 'プリーズ ミニスカ ポストウーマン!',
+    artist: Group.ANGE,
+    artistSub: 'スマイレージ',
+    year: 2011
   },
   {
     name: '負けるな わっしょい！',
