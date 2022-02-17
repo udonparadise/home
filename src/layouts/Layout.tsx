@@ -54,6 +54,7 @@ const MenuItems: MenuItem[] = [
   { name: SystemConst.Page.EVENTS, path: SystemConst.Path.EVENTS },
   { name: SystemConst.Page.DISC, path: SystemConst.Path.DISC },
   { name: SystemConst.Page.SELECT100, path: SystemConst.Path.SELECT100 },
+  { name: SystemConst.Page.NOTE, path: SystemConst.Path.NOTE },
 ];
 
 type LayoutProps = {
@@ -91,7 +92,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                   <Box textAlign={'center'} sx={{ borderTop: borderSetting }}>
                     {
                       MenuItems.map(menuItem => {
-                        return <MenuItemPC item={menuItem} />;
+                        return <MenuItemPC item={menuItem} key={menuItem.name} />;
                       })
                     }
                   </Box>
@@ -128,7 +129,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             >
               {
                 MenuItems.map(menuItem => {
-                  return <MenuItemMb item={menuItem} />;
+                  return <MenuItemMb item={menuItem} key={menuItem.name} />;
                 })
               }
             </Menu>

@@ -7,12 +7,14 @@ export namespace SystemConst {
     export const EVENTS = '/events';
     export const DISC = '/disc';
     export const SELECT100 = '/select100';
+    export const NOTE = '/note';
   }
   /* page名前 */
   export namespace Page {
     export const EVENTS = 'Events';
     export const DISC = 'Disc';
     export const SELECT100 = 'Select100';
+    export const NOTE = 'Note';
   }
 }
 
