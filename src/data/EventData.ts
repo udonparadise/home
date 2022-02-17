@@ -432,6 +432,15 @@ const e2019: event[] = [
     time: '18:30',
   },
   {
+    month: 10,
+    day: 5,
+    group: Group.BEYO,
+    name: 'BEYOOOOOND1St 発売記念ランダムチェキサイン&握手会',
+    site: '渋谷TSUTAYA 2階特設会場',
+    time: '18:00',
+    member: '岡村美波'
+  },
+  {
     month: 9,
     day: 11,
     group: Group.JUICE,
