@@ -13,7 +13,7 @@ const NoteListItem: React.FC<NoteListItemProps> = (props) => {
   return (
     <ListItem alignItems='flex-start'>
       <ListItemAvatar>
-        <Avatar sx={{ bgcolor: 'primary.main' }}>
+        <Avatar sx={{ bgcolor: 'secondary.main' }}>
           <FlutterDashIcon fontSize='large' />
         </Avatar>
       </ListItemAvatar>

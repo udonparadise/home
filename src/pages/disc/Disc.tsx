@@ -27,7 +27,7 @@ const TabPanel: React.FC<TabPanelProps> = (props) => {
             return (
               <ListItem key={disc.name} alignItems='flex-start' disablePadding>
                 <ListItemIcon>
-                  <AudiotrackIcon fontSize='small' />
+                  <AudiotrackIcon fontSize='small' color='secondary' />
                 </ListItemIcon>
                 <ListItemText primary={
                   <Typography sx={{ textDecoration: disc.doNotHave ? 'line-through' : 'none' }}>

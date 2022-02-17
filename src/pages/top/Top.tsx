@@ -13,23 +13,23 @@ import MarkunreadMailboxIcon from '@mui/icons-material/MarkunreadMailbox';
 import Layout from '../../layouts/Layout';
 
 const data = [
-  { icon: <EmojiEmotionsIcon color='primary' />, primary: 'うどん', secondary: '好きな食べ物の名前より' },
-  { icon: <WorkIcon color='primary' />, primary: 'プログラマ', secondary: '黙々とコーディングしていたい' },
-  { icon: <RoomIcon color='primary' />, primary: '長野', secondary: '出身は新潟' },
-  { icon: <FavoriteIcon color='primary' />, primary: 'Hello! Project', secondary: 'ベリヲタの亡霊' },
+  { icon: <EmojiEmotionsIcon color='secondary' />, primary: 'うどん', secondary: '好きな食べ物の名前より' },
+  { icon: <WorkIcon color='secondary' />, primary: 'プログラマ', secondary: '黙々とコーディングしていたい' },
+  { icon: <RoomIcon color='secondary' />, primary: '長野', secondary: '出身は新潟' },
+  { icon: <FavoriteIcon color='secondary' />, primary: 'Hello! Project', secondary: 'ベリヲタの亡霊' },
 ];
 
 const fav = [
-  { icon: <PanToolIcon color='primary' />, group: 'BEYOOOOONDS', oshi: '岡村美波' },
-  { icon: <LocalBarIcon color='primary' />, group: 'Juice=Juice', oshi: '江端妃咲 / 高木紗友希' },
-  { icon: <OndemandVideoIcon color='primary' />, group: 'OCHA NORMA', oshi: '北原もも' },
-  { icon: <LooksIcon color='primary' />, group: 'ハロプロ研修生', oshi: '' },
+  { icon: <PanToolIcon color='secondary' />, group: 'BEYOOOOONDS', oshi: '岡村美波' },
+  { icon: <LocalBarIcon color='secondary' />, group: 'Juice=Juice', oshi: '江端妃咲 / 高木紗友希' },
+  { icon: <OndemandVideoIcon color='secondary' />, group: 'OCHA NORMA', oshi: '北原もも' },
+  { icon: <LooksIcon color='secondary' />, group: 'ハロプロ研修生', oshi: '' },
 ];
 
 const legend = [
-  { icon: <FactoryIcon color='primary' />, group: 'Berryz工房', oshi: '須藤茉麻' },
-  { icon: <AutoAwesomeIcon color='primary' />, group: 'GAM', oshi: '松浦亜弥 / 藤本美貴' },
-  { icon: <MarkunreadMailboxIcon color='primary' />, group: 'S/mileage', oshi: '' },
+  { icon: <FactoryIcon color='secondary' />, group: 'Berryz工房', oshi: '須藤茉麻' },
+  { icon: <AutoAwesomeIcon color='secondary' />, group: 'GAM', oshi: '松浦亜弥 / 藤本美貴' },
+  { icon: <MarkunreadMailboxIcon color='secondary' />, group: 'S/mileage', oshi: '' },
 ];
 
 const Top: React.FC = () => {
