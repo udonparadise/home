@@ -7,7 +7,7 @@ type EventListProps = {
   data: event[],
 };
 
-const EventList: React.FC<EventListProps> = (props) => {
+const EventList = (props: EventListProps) => {
   const { year, data } = props;
 
   return (

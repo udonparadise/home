@@ -32,7 +32,7 @@ const legend = [
   { icon: <MarkunreadMailboxIcon color='secondary' />, group: 'S/mileage', oshi: '' },
 ];
 
-const Top: React.FC = () => {
+const Top = () => {
   return (
     <Layout>
       <Typography variant='h4' fontWeight={'bold'}>

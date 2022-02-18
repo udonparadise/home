@@ -11,7 +11,7 @@ type SongListItemProps = {
   song: song,
 }
 
-const SongListItem: React.FC<SongListItemProps> = (props) => {
+const SongListItem = (props: SongListItemProps) => {
   const { index, song } = props;
 
   return (
@@ -28,7 +28,7 @@ const SongListItem: React.FC<SongListItemProps> = (props) => {
   );
 };
 
-const SongList: React.FC<SongListProps> = (props) => {
+const SongList = (props: SongListProps) => {
   const { data } = props;
 
   return (

@@ -25,7 +25,7 @@ function setAvatar(event: event) {
   };
 }
 
-const DescriptionItem: React.FC<DescriptionItemProps> = (props) => {
+const DescriptionItem = (props: DescriptionItemProps) => {
   const { icon, text } = props;
   return (
     <Grid item>
@@ -41,7 +41,7 @@ const DescriptionItem: React.FC<DescriptionItemProps> = (props) => {
   );
 };
 
-const EventListItem: React.FC<EventListItemProps> = (props) => {
+const EventListItem = (props: EventListItemProps) => {
   const { data } = props;
 
   return (

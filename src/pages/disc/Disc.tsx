@@ -13,7 +13,7 @@ type TabPanelProps = {
   data: discInfo[]
 };
 
-const TabPanel: React.FC<TabPanelProps> = (props) => {
+const TabPanel = (props: TabPanelProps) => {
   const { artist, value, index, data } = props;
 
   return (
@@ -43,7 +43,7 @@ const TabPanel: React.FC<TabPanelProps> = (props) => {
   );
 };
 
-const Disc: React.FC = () => {
+const Disc = () => {
   const [value, setValue] = useState(1);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {

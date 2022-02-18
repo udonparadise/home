@@ -2,7 +2,7 @@ import { Box, Typography } from '@mui/material';
 import SickIcon from '@mui/icons-material/Sick';
 import Layout from '../layouts/Layout';
 
-const Error: React.FC = () => {
+const Error = () => {
   return (
     <Layout>
       <Box textAlign={'center'} sx={{ color: 'text.secondary', my: 4 }}>

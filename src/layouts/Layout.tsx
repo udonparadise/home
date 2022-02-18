@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import { useState } from 'react';
 import { AppBar, Box, Container, Grid, IconButton, Menu, MenuItem, styled, Toolbar, Typography, useMediaQuery } from '@mui/material';
 import RamenDiningRoundedIcon from '@mui/icons-material/RamenDiningRounded';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -19,16 +19,16 @@ const Item = styled(Box)(({ theme }) => ({
   padding: theme.spacing(1),
 }));
 
-type MenuItem = {
+type MenuElement = {
   name: string,
   path: string
 };
 
 type MenuItemProps = {
-  item: MenuItem;
+  item: MenuElement;
 };
 
-const MenuItemPC: React.FC<MenuItemProps> = (props) => {
+const MenuItemPC = (props: MenuItemProps) => {
   const { item } = props;
   return (
     <Link to={item.path}>
@@ -39,7 +39,7 @@ const MenuItemPC: React.FC<MenuItemProps> = (props) => {
   );
 };
 
-const MenuItemMb: React.FC<MenuItemProps> = (props) => {
+const MenuItemMb = (props: MenuItemProps) => {
   const { item } = props;
   return (
     <Link to={item.path}>
@@ -50,21 +50,17 @@ const MenuItemMb: React.FC<MenuItemProps> = (props) => {
   );
 };
 
-const MenuItems: MenuItem[] = [
+const MenuItems: MenuElement[] = [
   { name: SystemConst.Page.EVENTS, path: SystemConst.Path.EVENTS },
   { name: SystemConst.Page.DISC, path: SystemConst.Path.DISC },
   { name: SystemConst.Page.SELECT100, path: SystemConst.Path.SELECT100 },
   { name: SystemConst.Page.NOTE, path: SystemConst.Path.NOTE },
 ];
 
-type LayoutProps = {
-  children: ReactNode;
-};
-
-const Layout: React.FC<LayoutProps> = ({ children }) => {
+const Layout: React.FC = ({ children }) => {
   const matches = useMediaQuery('(min-width:600px)');
 
-  const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
+  const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);

@@ -27,7 +27,7 @@ export const select100: song[] = [
   {
     name: 'ありがた迷惑物語',
     artist: Group.HPK,
-    year: 2007
+    year: 2018
   },
   {
     name: 'ありがとう！おともだち。',

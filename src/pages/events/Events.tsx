@@ -13,7 +13,7 @@ type TabPanelProps = {
   data: event[],
 };
 
-const TabPanel: React.FC<TabPanelProps> = (props) => {
+const TabPanel = (props: TabPanelProps) => {
   const { value, index, year, data } = props;
 
   return (
@@ -23,7 +23,7 @@ const TabPanel: React.FC<TabPanelProps> = (props) => {
   );
 };
 
-const Events: React.FC = () => {
+const Events = () => {
   const [value, setValue] = useState(1);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {

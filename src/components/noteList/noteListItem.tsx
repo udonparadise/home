@@ -6,7 +6,7 @@ type NoteListItemProps = {
   note: note
 }
 
-const NoteListItem: React.FC<NoteListItemProps> = (props) => {
+const NoteListItem = (props: NoteListItemProps) => {
   const { note } = props;
   const breakedText = note.note.split("¥n").map((line, key) => <span key={key}>{line}<br /></span>);
 

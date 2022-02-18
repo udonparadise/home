@@ -13,7 +13,7 @@ type PaginationContainerProps = {
   onChange: (event: React.ChangeEvent<unknown>, value: number) => void
 };
 
-const PaginationContainer: React.FC<PaginationContainerProps> = (props) => {
+const PaginationContainer = (props: PaginationContainerProps) => {
   const { count, page, onChange } = props;
 
   return (
@@ -30,7 +30,7 @@ const PaginationContainer: React.FC<PaginationContainerProps> = (props) => {
   );
 };
 
-const Note: React.FC = () => {
+const Note = () => {
   const [displayNote, setDisplayNote] = useState<note[]>([]);
   const [page, setPage] = useState(1);
 

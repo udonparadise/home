@@ -4,7 +4,7 @@ import { SystemConst } from '../../const';
 import { select100 } from '../../data/Select100Data';
 import SongList from '../../components/songList/SongList';
 
-const Select100: React.FC = () => {
+const Select100 = () => {
   return (
     <Layout>
       <Typography variant='h4' fontWeight={'bold'}>
