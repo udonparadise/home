@@ -130,7 +130,7 @@ const Layout: React.FC = ({ children }) => {
               }
             </Menu>
             <Container>
-              <Box sx={{ my: 2 }}>
+              <Box sx={{ my: 4 }}>
                 {children}
               </Box>
             </Container>
