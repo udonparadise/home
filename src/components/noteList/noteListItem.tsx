@@ -1,6 +1,6 @@
 import { Avatar, ListItem, ListItemAvatar, ListItemText } from '@mui/material';
-import FlutterDashIcon from '@mui/icons-material/FlutterDash';
 import { note } from '../../model/Note';
+import { FaKiwiBird } from "react-icons/fa";
 
 type NoteListItemProps = {
   note: note
@@ -14,7 +14,7 @@ const NoteListItem = (props: NoteListItemProps) => {
     <ListItem alignItems='flex-start'>
       <ListItemAvatar>
         <Avatar sx={{ bgcolor: 'secondary.main' }}>
-          <FlutterDashIcon fontSize='large' />
+          <FaKiwiBird />
         </Avatar>
       </ListItemAvatar>
       <ListItemText
