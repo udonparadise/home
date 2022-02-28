@@ -13,7 +13,7 @@ const NoteListItem = (props: NoteListItemProps) => {
   return (
     <ListItem alignItems='flex-start'>
       <ListItemAvatar>
-        <Avatar sx={{ bgcolor: 'secondary.main' }}>
+        <Avatar sx={{ bgcolor: 'primary.dark' }}>
           <FaKiwiBird />
         </Avatar>
       </ListItemAvatar>

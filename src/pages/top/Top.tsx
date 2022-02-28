@@ -13,23 +13,23 @@ import MarkunreadMailboxIcon from '@mui/icons-material/MarkunreadMailbox';
 import Layout from '../../layouts/Layout';
 
 const data = [
-  { icon: <EmojiEmotionsIcon color='secondary' />, primary: 'うどん', secondary: '好きな食べ物の名前より' },
-  { icon: <WorkIcon color='secondary' />, primary: 'プログラマ', secondary: '黙々とコーディングしていたい' },
-  { icon: <RoomIcon color='secondary' />, primary: '長野', secondary: '出身は新潟' },
-  { icon: <FavoriteIcon color='secondary' />, primary: 'Hello! Project', secondary: 'ベリヲタの亡霊' },
+  { icon: <EmojiEmotionsIcon />, primary: 'うどん', secondary: '好きな食べ物の名前より' },
+  { icon: <WorkIcon />, primary: 'プログラマ', secondary: '黙々とコーディングしていたい' },
+  { icon: <RoomIcon />, primary: '長野', secondary: '出身は新潟' },
+  { icon: <FavoriteIcon />, primary: 'Hello! Project', secondary: 'ベリヲタの亡霊' },
 ];
 
 const fav = [
-  { icon: <PanToolIcon color='secondary' />, group: 'BEYOOOOONDS', oshi: '岡村美波' },
-  { icon: <LocalBarIcon color='secondary' />, group: 'Juice=Juice', oshi: '江端妃咲 / 高木紗友希' },
-  { icon: <OndemandVideoIcon color='secondary' />, group: 'OCHA NORMA', oshi: '北原もも' },
-  { icon: <LooksIcon color='secondary' />, group: 'ハロプロ研修生', oshi: '' },
+  { icon: <PanToolIcon />, group: 'BEYOOOOONDS', oshi: '岡村美波' },
+  { icon: <LocalBarIcon />, group: 'Juice=Juice', oshi: '江端妃咲 / 高木紗友希' },
+  { icon: <OndemandVideoIcon />, group: 'OCHA NORMA', oshi: '北原もも' },
+  { icon: <LooksIcon />, group: 'ハロプロ研修生', oshi: '' },
 ];
 
 const legend = [
-  { icon: <FactoryIcon color='secondary' />, group: 'Berryz工房', oshi: '須藤茉麻' },
-  { icon: <AutoAwesomeIcon color='secondary' />, group: 'GAM', oshi: '松浦亜弥 / 藤本美貴' },
-  { icon: <MarkunreadMailboxIcon color='secondary' />, group: 'S/mileage', oshi: '' },
+  { icon: <FactoryIcon />, group: 'Berryz工房', oshi: '須藤茉麻' },
+  { icon: <AutoAwesomeIcon />, group: 'GAM', oshi: '松浦亜弥 / 藤本美貴' },
+  { icon: <MarkunreadMailboxIcon />, group: 'S/mileage', oshi: '' },
 ];
 
 const Top = () => {
@@ -43,7 +43,7 @@ const Top = () => {
           {
             data.map((item) => (
               <ListItem key={item.primary}>
-                <ListItemIcon>
+                <ListItemIcon sx={{ color: 'primary.dark' }}>
                   {item.icon}
                 </ListItemIcon>
                 <ListItemText primary={item.primary} secondary={item.secondary} />
@@ -59,7 +59,7 @@ const Top = () => {
         {
           fav.map((item) => (
             <ListItem key={item.group}>
-              <ListItemIcon>
+              <ListItemIcon sx={{ color: 'primary.dark' }}>
                 {item.icon}
               </ListItemIcon>
               <ListItemText primary={item.group} secondary={item.oshi} />
@@ -74,7 +74,7 @@ const Top = () => {
         {
           legend.map((item) => (
             <ListItem key={item.group}>
-              <ListItemIcon>
+              <ListItemIcon sx={{ color: 'primary.dark' }}>
                 {item.icon}
               </ListItemIcon>
               <ListItemText primary={item.group} secondary={item.oshi} />
