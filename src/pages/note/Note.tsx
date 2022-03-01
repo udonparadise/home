@@ -41,7 +41,7 @@ const Note = () => {
   useEffect(() => {
     const start = (page - 1) * perPage;
     const end = (start + perPage) > notes.length ? notes.length : start + perPage;
-    setDisplayNote(notes.reverse().slice(start, end));
+    setDisplayNote(notes.slice(start, end));
   }, [page]);
 
   return (
