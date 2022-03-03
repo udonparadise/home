@@ -2,6 +2,10 @@ import { note } from '../model/Note';
 
 export const notes: note[] = [
   {
+    date: new Date(2022, 3, 3),
+    note: 'terzo プラプラ収録されている!? 優勝！'
+  },
+  {
     date: new Date(2022, 3, 1),
     note: '9期・10期よりも14期が先に卒業するなんて…'
   },
