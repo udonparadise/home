@@ -1,4 +1,8 @@
 export type note = {
-  date: Date,
+  date: {
+    year: number,
+    month: number,
+    day: number
+  },
   note: string
 };

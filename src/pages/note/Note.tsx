@@ -54,7 +54,7 @@ const Note = () => {
       <List>
         {
           displayNote.map(item => {
-            return <NoteListItem note={item} key={item.date.getFullYear + '-' + item.date.getMonth + '-' + item.date.getDate} />;
+            return <NoteListItem note={item} key={item.date.year + '-' + item.date.month + '-' + item.date.day} />;
           })
         }
       </List>

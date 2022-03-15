@@ -9,6 +9,7 @@ type NoteListItemProps = {
 const NoteListItem = (props: NoteListItemProps) => {
   const { note } = props;
   const breakedText = note.note.split("¥n").map((line, key) => <span key={key}>{line}<br /></span>);
+  const date = new Date(note.date.year, note.date.month - 1, note.date.day);
 
   return (
     <ListItem alignItems='flex-start'>
@@ -19,7 +20,7 @@ const NoteListItem = (props: NoteListItemProps) => {
       </ListItemAvatar>
       <ListItemText
         primary={breakedText}
-        secondary={note.date.toDateString()}
+        secondary={date.toDateString()}
         secondaryTypographyProps={{ textAlign: 'right' }}
       />
     </ListItem>
