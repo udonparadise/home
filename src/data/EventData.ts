@@ -1,6 +1,17 @@
 import { Group } from '../const';
 import { eventItem, event } from '../model/Event';
 
+const e2022: event[] = [
+  {
+    month: 4,
+    day: 25,
+    group: Group.BEYO,
+    name: 'BEYOOOOOND1St CONCERT TOUR どんと来い! BE HAPPY! at BUDOOOOOKAN!!!!!!!!!!!!',
+    site: '日本武道館',
+    time: '18:00',
+  },
+];
+
 const e2021: event[] = [
   {
     month: 12,
@@ -732,6 +743,7 @@ const e2013: event[] = [
 ];
 
 export const events: eventItem[] = [
+  { year: 2022, data: e2022 },
   { year: 2021, data: e2021 },
   { year: 2020, data: e2020 },
   { year: 2019, data: e2019 },
