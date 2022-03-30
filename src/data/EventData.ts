@@ -9,6 +9,27 @@ const e2022: event[] = [
     name: 'BEYOOOOOND1St CONCERT TOUR どんと来い! BE HAPPY! at BUDOOOOOKAN!!!!!!!!!!!!',
     site: '日本武道館',
     time: '18:00',
+    note: 'ライブビューイング'
+  },
+  {
+    month: 4,
+    day: 3,
+    group: Group.HP,
+    name: 'Hello! Project ひなフェス 2022',
+    site: '幕張メッセ 国際展示場1・2 ホール',
+    time: '12:00',
+    member: 'つばきファクトリー&BEYOOOOONDS プレミアム',
+    note: 'ライブビューイング'
+  },
+  {
+    month: 4,
+    day: 2,
+    group: Group.HP,
+    name: 'Hello! Project ひなフェス 2022',
+    site: '幕張メッセ 国際展示場1・2 ホール',
+    member: 'Juice=Juice プレミアム',
+    time: '12:30',
+    note: 'ライブビューイング'
   },
 ];
 
@@ -44,7 +65,7 @@ const e2021: event[] = [
     name: '演劇女子部「図書館物語～3つのブックマーク～」',
     site: '池袋シアターグリーン BIG TREE THEATER',
     time: '11:30/15:00',
-    note: 'Now・Future/Past・Now'
+    member: 'Now・Future/Past・Now'
   },
   {
     month: 11,
@@ -109,7 +130,7 @@ const e2021: event[] = [
     name: 'Hello! Project 2021 秋 「続・花鳥風月」',
     site: 'ハーモニーホール座間 大ホール',
     time: '14:30',
-    note: 'チーム鳥'
+    member: 'チーム鳥'
   },
   {
     month: 9,
@@ -142,7 +163,7 @@ const e2021: event[] = [
     name: 'Hello! Project 2021 Summer Sapphire & Ruby',
     site: 'TACHIKAWA STAGE GARDEN',
     time: '18:15',
-    note: 'Ruby'
+    member: 'Ruby'
   },
   {
     month: 8,
@@ -167,7 +188,7 @@ const e2021: event[] = [
     name: 'Hello! Project 2021 Summer Sapphire & Ruby',
     site: '中野サンプラザ',
     time: '15:00',
-    note: 'Ruby'
+    member: 'Ruby'
   },
   {
     month: 5,
@@ -191,7 +212,8 @@ const e2021: event[] = [
     name: 'Hello! Project 2021 春 「花鳥風月」',
     site: '中野サンプラザ',
     time: '18:15',
-    note: 'チーム月＜中止＞',
+    member: 'チーム月',
+    note: '中止'
   },
   {
     month: 4,
@@ -216,7 +238,7 @@ const e2021: event[] = [
     name: 'Hello! Project ひなフェス 2021',
     site: '幕張メッセ 国際展示場 1・2ホール',
     time: '12:00',
-    note: 'つばきファクトリー&BEYOOOOONDSプレミアム',
+    member: 'つばきファクトリー&BEYOOOOONDSプレミアム',
   },
   {
     month: 3,
@@ -225,7 +247,7 @@ const e2021: event[] = [
     name: 'Hello! Project 2021 春 「花鳥風月」',
     site: 'オリンパスホール八王子',
     time: '18:15',
-    note: 'チーム鳥'
+    member: 'チーム鳥'
   },
   {
     month: 3,
@@ -364,7 +386,7 @@ const e2020: event[] = [
     name: 'Hello! Project 2020 Summer COVERS 〜The Ballad〜',
     site: '中野サンプラザ',
     time: '14:45',
-    note: 'Bチーム'
+    member: 'Bチーム'
   },
   {
     month: 7,
@@ -381,7 +403,7 @@ const e2020: event[] = [
     name: 'Hello! Project 2020 Winter HELLO! PROJECT IS [　　　]',
     site: '中野サンプラザ',
     time: '18:30',
-    note: 'side A'
+    member: 'side A'
   },
 ];
 
@@ -509,7 +531,7 @@ const e2018: event[] = [
     name: 'Hello! Project 20th Anniversary!! Hello! Project 2018 SUMMER',
     site: '中野サンプラザ',
     time: '15:00/18:30',
-    note: 'ALL FOR ONE/ONE FOR ALL'
+    member: 'ALL FOR ONE/ONE FOR ALL'
   },
   {
     month: 5,
