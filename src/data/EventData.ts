@@ -8,8 +8,7 @@ const e2022: event[] = [
     group: Group.BEYO,
     name: 'BEYOOOOOND1St CONCERT TOUR どんと来い! BE HAPPY! at BUDOOOOOKAN!!!!!!!!!!!!',
     site: '日本武道館',
-    time: '18:00',
-    note: 'ライブビューイング'
+    time: '18:00'
   },
   {
     month: 4,
