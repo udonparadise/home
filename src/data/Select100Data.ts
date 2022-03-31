@@ -25,6 +25,12 @@ export const select100: song[] = [
     year: 2004
   },
   {
+    name: 'ぁまのじゃく',
+    artist: Group.ANGE,
+    artistSub: 'スマイレージ',
+    year: 2009
+  },
+  {
     name: 'ありがた迷惑物語',
     artist: Group.HPK,
     year: 2018
@@ -61,6 +67,12 @@ export const select100: song[] = [
     year: 1999
   },
   {
+    name: '有頂天LOVE',
+    artist: Group.ANGE,
+    artistSub: 'スマイレージ',
+    year: 2011
+  },
+  {
     name: 'Uraha=Lover',
     artist: Group.ANGE,
     year: 2018
@@ -69,6 +81,12 @@ export const select100: song[] = [
     name: '…H',
     artist: Group.GAM,
     year: 2007
+  },
+  {
+    name: 'ええか！？',
+    artist: Group.ANGE,
+    artistSub: 'スマイレージ',
+    year: 2013
   },
   {
     name: 'エキゾなDISCO',
@@ -102,6 +120,11 @@ export const select100: song[] = [
     year: 2021
   },
   {
+    name: '女の園',
+    artist: Group.HPK,
+    year: 2015
+  },
+  {
     name: '彼女になりたいっ！！！',
     artist: Group.HPK,
     year: 2012
@@ -131,6 +154,11 @@ export const select100: song[] = [
     name: '今夜だけ浮かれたかった',
     artist: Group.TSUBAKI,
     year: 2018
+  },
+  {
+    name: 'The 摩天楼 ショー',
+    artist: Group.MM,
+    year: 2012
   },
   {
     name: 'サンサンGOGO',
@@ -173,6 +201,12 @@ export const select100: song[] = [
     year: 2005
   },
   {
+    name: 'スキちゃん',
+    artist: Group.ANGE,
+    artistSub: 'スマイレージ',
+    year: 2009
+  },
+  {
     name: 'ずっと 好きでいいですか',
     artist: Group.MA,
     year: 2005
@@ -191,6 +225,11 @@ export const select100: song[] = [
     name: 'SEXY SNOW',
     artist: 'W',
     year: 2004
+  },
+  {
+    name: 'SEXY BOY〜そよ風に寄り添って〜',
+    artist: Group.MM,
+    year: 2006
   },
   {
     name: '背伸び',
@@ -214,6 +253,12 @@ export const select100: song[] = [
     artist: Group.MM,
     artistSub: '鞘師里保・小田さくら',
     year: 2013
+  },
+  {
+    name: 'タチアガール',
+    artist: Group.ANGE,
+    artistSub: 'スマイレージ',
+    year: 2011
   },
   {
     name: '単純すぎなの私…',
@@ -263,6 +308,12 @@ export const select100: song[] = [
     year: 2003
   },
   {
+    name: 'ナルシス カマってちゃん協奏曲第5番',
+    artist: Group.MM,
+    artistSub: "モーニング娘。'17",
+    year: 2017
+  },
+  {
     name: '念には念',
     artist: Group.KOBUSHI,
     year: 2015
@@ -308,6 +359,12 @@ export const select100: song[] = [
     name: 'Memory 青春の光',
     artist: Group.MM,
     year: 1999
+  },
+  {
+    name: '夕暮れ 恋の時間',
+    artist: Group.ANGE,
+    artistSub: 'スマイレージ',
+    year: 2013
   },
   {
     name: 'LOVE LIKE CRAZY',
