@@ -3,6 +3,14 @@ import { eventItem, event } from '../model/Event';
 
 const e2022: event[] = [
   {
+    month: 5,
+    day: 30,
+    group: Group.JUICE,
+    name: 'Juice=Juice CONCERT TOUR 〜terzo〜 FINAL 稲場愛香卒業スペシャル',
+    site: '日本武道館',
+    time: '18:00'
+  },
+  {
     month: 4,
     day: 25,
     group: Group.BEYO,
