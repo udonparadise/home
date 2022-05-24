@@ -1,19 +1,14 @@
 import Layout from '../../layouts/Layout';
-import { Timeline } from 'react-twitter-widgets';
-
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
 const Note = () => {
   return (
     <Layout>
-      <Timeline
-            dataSource={{
-              sourceType: 'profile',
-              screenName: 'udonparadise98'
-            }}
-            options={{
-              height: '800'
-            }}
-          />
-      </Layout>
+      <TwitterTimelineEmbed
+        sourceType="profile"
+        screenName="udonparadise98"
+        options={{height: "90vh"}}
+      />
+    </Layout>
   );
 };
 

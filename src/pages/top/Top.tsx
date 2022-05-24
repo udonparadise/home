@@ -13,8 +13,8 @@ import MarkunreadMailboxIcon from '@mui/icons-material/MarkunreadMailbox';
 import Layout from '../../layouts/Layout';
 
 const data = [
-  { icon: <EmojiEmotionsIcon />, primary: 'うどん', secondary: '好きな食べ物の名前より' },
-  { icon: <WorkIcon />, primary: 'プログラマ', secondary: '黙々とコーディングしていたい' },
+  { icon: <EmojiEmotionsIcon />, primary: 'udon', secondary: '' },
+  { icon: <WorkIcon />, primary: 'プログラマ', secondary: '' },
   { icon: <RoomIcon />, primary: '長野', secondary: '出身は新潟' },
   { icon: <FavoriteIcon />, primary: 'Hello! Project', secondary: 'ベリヲタの亡霊' },
 ];
