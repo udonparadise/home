@@ -3,6 +3,22 @@ import { eventItem, event } from '../model/Event';
 
 const e2022: event[] = [
   {
+    month: 8,
+    day: 27,
+    group: Group.ANGE,
+    name: 'Hello! Project 2022 Summer CITY CIRCUIT　アンジュルム CONCERT TOUR 〜The ANGERME Encore〜',
+    site: '中野サンプラザ',
+    time: '18:00'
+  },
+  {
+    month: 7,
+    day: 9,
+    group: Group.JUICE,
+    name: 'Hello! Project 2022 Summer CITY CIRCUIT　Juice=Juice CONCERT TOUR 〜terzo bis〜',
+    site: '中野サンプラザ',
+    time: '18:00'
+  },
+  {
     month: 5,
     day: 30,
     group: Group.JUICE,
