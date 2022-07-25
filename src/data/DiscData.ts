@@ -207,8 +207,7 @@ export const discList: disc[] = [
       },
       {
         name: '後浦なつみファーストコンサートツアー2005春トライアングルエナジー',
-        year: 2005,
-        doNotHave: true
+        year: 2005
       },
       {
         name: 'ハロ☆プロパーティ〜! 2005〜松浦亜弥キャプテン公演〜',
@@ -483,8 +482,7 @@ export const discList: disc[] = [
       },
       {
         name: "モーニング娘。コンサートツアー『The BEST of Japan 夏〜秋'04』",
-        year: 2004,
-        doNotHave: true
+        year: 2004
       },
       {
         name: 'モーニング娘。コンサートツアー2005春 〜第六感 ヒット満開!〜',
@@ -511,6 +509,14 @@ export const discList: disc[] = [
   {
     artist: Group.HP,
     disc: [
+      {
+        name: 'Hello! Project 2002 〜今年もすごいぞ！〜',
+        year: 2003
+      },
+      {
+        name: 'Hello! Project 2002 -ONE HAPPY SUMMER DAY-',
+        year: 2003
+      },
       {
         name: 'Hello! Project 2003 Winter 楽しんじゃってます!',
         year: 2003,
