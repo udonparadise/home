@@ -3,12 +3,53 @@ import { eventItem, event } from '../model/Event';
 
 const e2022: event[] = [
   {
+    month: 10,
+    day: 24,
+    group: Group.BEYO,
+    name: 'BEYOOOOONDS/雨ノ森 川海 岡村美波バースデーイベント2022',
+    site: 'LANDMARK HALL',
+    time: '16:45/19:00',
+  },
+  {
+    month: 10,
+    day: 15,
+    group: Group.JUICE,
+    name: 'Hello! Project 2022 Autumn CITY CIRCUIT　Juice=Juice CONCERT TOUR ～nouvelle vague～',
+    site: 'ベイシア文化ホール 大ホール',
+    time: '19:00'
+  },
+  {
+    month: 10,
+    day: 15,
+    group: Group.BEYO,
+    name: 'Hello! Project 2022 Autumn CITY CIRCUIT　BEYOOOOO2NDS CONCERT TOUR ～天高く、ビヨ燃ゆる秋～',
+    site: 'ベイシア文化ホール 大ホール',
+    time: '15:30'
+  },
+  {
+    month: 10,
+    day: 8,
+    group: Group.FM,
+    name: '20周年記念！大感謝ライブ！～ミキティアイドルやります！秋の大集会！～AGAIN!!!!!また来てね～',
+    site: '新宿BLAZE',
+    time: '14:30'
+  },
+  {
     month: 8,
     day: 27,
     group: Group.ANGE,
     name: 'Hello! Project 2022 Summer CITY CIRCUIT　アンジュルム CONCERT TOUR 〜The ANGERME Encore〜',
     site: '中野サンプラザ',
     time: '18:00'
+  },
+  {
+    month: 8,
+    day: 27,
+    group: Group.BEYO,
+    name: 'Hello! Project 2022 Summer CITY CIRCUIT　BEYOOOOOND1St CONCERT TOUR 〜もういっちょどんと来い! BE HAPPY!〜',
+    site: '中野サンプラザ',
+    time: '14:30',
+    note: 'ライブビューイング'
   },
   {
     month: 7,

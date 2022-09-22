@@ -1,13 +1,16 @@
 import Layout from '../../layouts/Layout';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
+import { Box } from '@mui/material';
 const Note = () => {
   return (
     <Layout>
-      <TwitterTimelineEmbed
-        sourceType="profile"
-        screenName="udonparadise98"
-        options={{height: "90vh"}}
-      />
+      <Box sx={{ height: "90vh" }}>
+        <TwitterTimelineEmbed
+          autoHeight
+          sourceType="profile"
+          screenName="udonparadise98"
+        />
+      </Box>
     </Layout>
   );
 };

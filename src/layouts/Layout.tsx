@@ -7,6 +7,11 @@ import { Link } from 'react-router-dom';
 
 const borderSetting = '1px dotted #ffffff';
 
+const MainContainer = styled(Box)(({ theme }) => ({
+  borderRight: '1px solid',
+  borderRightColor: theme.palette.primary.main,
+}));
+
 const MenuContainer = styled(Box)(({ theme }) => ({
   color: '#ffffff',
   backgroundColor: theme.palette.primary.main,
@@ -73,7 +78,7 @@ const Layout: React.FC = ({ children }) => {
     <>
       {
         matches ? (
-          <Box sx={{ height: '100vh', maxWidth: '800px', my: 0, mx: 'auto', borderRight: '1px solid', borderRightColor: 'primary.main' }}>
+          <MainContainer sx={{ height: '100vh', maxWidth: '800px', my: 0, mx: 'auto' }}>
             <Grid container sx={{ height: '100vh' }}>
               <Grid item xs={3} sx={{ height: '100%' }}>
                 <MenuContainer>
@@ -100,7 +105,7 @@ const Layout: React.FC = ({ children }) => {
                 </Box>
               </Grid>
             </Grid>
-          </Box>
+          </MainContainer>
         ) : (
           <>
             <AppBar>
