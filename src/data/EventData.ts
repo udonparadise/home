@@ -3,6 +3,14 @@ import { eventItem, event } from '../model/Event';
 
 const e2022: event[] = [
   {
+    month: 11,
+    day: 29,
+    group: Group.JUICE,
+    name: 'Juice=Juice CONCERT TOUR ～final: nouvelle vague～',
+    site: '日本武道館',
+    time: '18:00',
+  },
+  {
     month: 10,
     day: 24,
     group: Group.BEYO,
