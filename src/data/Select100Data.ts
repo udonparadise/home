@@ -174,7 +174,7 @@ export const select100: song[] = [
     name: '循環',
     artist: Group.BEYO,
     artistSub: '雨ノ森 川海',
-    year: 2017
+    year: 2022
   },
   {
     name: '消失点〜Vanishing Point〜',

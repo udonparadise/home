@@ -9,6 +9,7 @@ const e2022: event[] = [
     name: 'Juice=Juice CONCERT TOUR ～final: nouvelle vague～',
     site: '日本武道館',
     time: '18:00',
+    note: '中止'
   },
   {
     month: 10,
