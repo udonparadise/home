@@ -16,7 +16,7 @@ function App() {
         <Route path={SystemConst.Path.DISC} element={<Disc />} />
         <Route path={SystemConst.Path.SELECT100} element={<Select100 />} />
         <Route path={SystemConst.Path.NOTE} element={<Note />} />
-        <Route path='/*' element={<Error />} />
+        <Route path="/*" element={<Error />} />
       </Routes>
     </Router>
   );

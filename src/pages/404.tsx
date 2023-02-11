@@ -6,7 +6,7 @@ const Error = () => {
   return (
     <Layout>
       <Box textAlign={'center'} sx={{ color: 'text.secondary', my: 4 }}>
-        <Typography variant='h4' fontWeight={'bold'} component={'div'}>
+        <Typography variant="h4" fontWeight={'bold'} component={'div'}>
           {'Error!'}
         </Typography>
         <SickIcon sx={{ fontSize: 40, mt: 2 }} />

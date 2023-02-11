@@ -1,6 +1,6 @@
 export type song = {
-  year: number,
-  name: string,
-  artist: string,
-  artistSub?: string
+  year: number;
+  name: string;
+  artist: string;
+  artistSub?: string;
 };

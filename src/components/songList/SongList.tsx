@@ -1,15 +1,21 @@
-import { Avatar, List, ListItem, ListItemAvatar, ListItemText } from '@mui/material';
+import {
+  Avatar,
+  List,
+  ListItem,
+  ListItemAvatar,
+  ListItemText,
+} from '@mui/material';
 import { song } from '../../model/Song';
 import { stringToColor } from '../../util';
 
 type SongListProps = {
-  data: song[]
+  data: song[];
 };
 
 type SongListItemProps = {
-  index: number,
-  song: song,
-}
+  index: number;
+  song: song;
+};
 
 const SongListItem = (props: SongListItemProps) => {
   const { index, song } = props;
@@ -17,7 +23,9 @@ const SongListItem = (props: SongListItemProps) => {
   return (
     <ListItem key={song.name}>
       <ListItemAvatar>
-        <Avatar sx={{ bgcolor: stringToColor(song.artist) }}>{index + 1}</Avatar>
+        <Avatar sx={{ bgcolor: stringToColor(song.artist) }}>
+          {index + 1}
+        </Avatar>
       </ListItemAvatar>
       <ListItemText
         primary={song.name}
@@ -33,11 +41,9 @@ const SongList = (props: SongListProps) => {
 
   return (
     <List sx={{ width: '100%' }}>
-      {
-        data.map((song, index) => {
-          return <SongListItem index={index} song={song} />
-        })
-      }
+      {data.map((song, index) => {
+        return <SongListItem index={index} song={song} />;
+      })}
     </List>
   );
 };

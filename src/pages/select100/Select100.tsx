@@ -7,7 +7,7 @@ import SongList from '../../components/songList/SongList';
 const Select100 = () => {
   return (
     <Layout>
-      <Typography variant='h4' fontWeight={'bold'}>
+      <Typography variant="h4" fontWeight={'bold'}>
         {SystemConst.Page.SELECT100}
       </Typography>
       <Typography sx={{ my: 1 }}>

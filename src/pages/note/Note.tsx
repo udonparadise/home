@@ -4,7 +4,7 @@ import { Box } from '@mui/material';
 const Note = () => {
   return (
     <Layout>
-      <Box sx={{ height: "90vh" }}>
+      <Box sx={{ height: '90vh' }}>
         <TwitterTimelineEmbed
           autoHeight
           sourceType="profile"

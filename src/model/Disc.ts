@@ -1,10 +1,10 @@
 export type disc = {
-  artist: string,
-  disc: discInfo[]
+  artist: string;
+  disc: discInfo[];
 };
 
 export type discInfo = {
-  name: string,
-  year: number,
-  doNotHave?: boolean
+  name: string;
+  year: number;
+  doNotHave?: boolean;
 };

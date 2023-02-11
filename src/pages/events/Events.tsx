@@ -7,10 +7,10 @@ import { events } from '../../data/EventData';
 import { event } from '../../model/Event';
 
 type TabPanelProps = {
-  value: number,
-  index: number,
-  year: number,
-  data: event[],
+  value: number;
+  index: number;
+  year: number;
+  data: event[];
 };
 
 const TabPanel = (props: TabPanelProps) => {
@@ -32,7 +32,7 @@ const Events = () => {
 
   return (
     <Layout>
-      <Typography variant='h4' fontWeight={'bold'}>
+      <Typography variant="h4" fontWeight={'bold'}>
         {SystemConst.Page.EVENTS}
       </Typography>
       <Box sx={{ flexGrow: 1, my: 2 }}>
@@ -49,18 +49,21 @@ const Events = () => {
           }}
         >
           <Tab label="All" />
-          {
-            events.map(event => {
-              return <Tab label={event.year} />;
-            })
-          }
+          {events.map((event) => {
+            return <Tab label={event.year} />;
+          })}
         </Tabs>
       </Box>
-      {
-        events.map((event, index) => {
-          return <TabPanel value={value} index={index + 1} year={event.year} data={event.data} />;
-        })
-      }
+      {events.map((event, index) => {
+        return (
+          <TabPanel
+            value={value}
+            index={index + 1}
+            year={event.year}
+            data={event.data}
+          />
+        );
+      })}
     </Layout>
   );
 };
