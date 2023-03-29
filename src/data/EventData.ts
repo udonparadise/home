@@ -3,6 +3,14 @@ import { eventItem, event } from '../model/Event';
 
 const e2023: event[] = [
   {
+    month: 5,
+    day: 15,
+    group: Group.BEYO,
+    name: 'BEYOOOOONDS CONCERT TOUR 「NEO BEYO at BUDOOOOOKAN!!!!!!!!!!!!」',
+    site: '日本武道館',
+    time: '18:00',
+  },
+  {
     month: 4,
     day: 8,
     group: Group.BEYO,

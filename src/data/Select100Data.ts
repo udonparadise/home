@@ -25,6 +25,11 @@ export const select100: song[] = [
     year: 2004,
   },
   {
+    name: 'アナタボシ',
+    artist: 'MilkyWay',
+    year: 2008,
+  },
+  {
     name: 'ぁまのじゃく',
     artist: Group.ANGE,
     artistSub: 'スマイレージ',
@@ -94,6 +99,12 @@ export const select100: song[] = [
     year: 2005,
   },
   {
+    name: 'エレガントガール',
+    artist: Group.BERRYZ,
+    artistSub: '氷室衣舞',
+    year: 2010,
+  },
+  {
     name: '大きな愛でもてなして',
     artist: Group.CUTE,
     year: 2006,
@@ -130,6 +141,16 @@ export const select100: song[] = [
     year: 2012,
   },
   {
+    name: 'ガムシャララ',
+    artist: 'MilkyWay',
+    year: 2008,
+  },
+  {
+    name: 'ガラスのパンプス',
+    artist: Group.GM,
+    year: 2006,
+  },
+  {
     name: 'カラダだけが大人になったんじゃない',
     artist: Group.JUICE,
     year: 2016,
@@ -160,11 +181,7 @@ export const select100: song[] = [
     artist: Group.MM,
     year: 2012,
   },
-  {
-    name: 'サンサンGOGO',
-    artist: 'MilkyWay',
-    year: 2008,
-  },
+
   {
     name: 'Just Try!',
     artist: Group.TSUBAKI,
@@ -373,6 +390,11 @@ export const select100: song[] = [
     year: 2013,
   },
   {
+    name: '横浜蜃気楼',
+    artist: Group.GM,
+    year: 2004,
+  },
+  {
     name: 'LOVE LIKE CRAZY',
     artist: '後浦なつみ',
     year: 2004,
@@ -391,6 +413,6 @@ export const select100: song[] = [
     name: 'ワタシと踊りなさい！',
     artist: Group.BEYO,
     artistSub: 'SeasoningS',
-    year: 2013,
+    year: 2021,
   },
 ];
