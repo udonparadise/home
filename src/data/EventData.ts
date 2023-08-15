@@ -3,6 +3,23 @@ import { eventItem, event } from '../model/Event';
 
 const e2023: event[] = [
   {
+    month: 11,
+    day: 19,
+    group: Group.JUICE,
+    name: 'Juice=Juice 10th Anniversary Concert Tour 2023 〜Juicetory〜',
+    site: 'トークネットホール仙台 大ホール',
+    time: '15:15/18:30',
+  },
+  {
+    month: 6,
+    day: 21,
+    group: Group.ANGE,
+    name: 'ANGERME CONCERT 2023 BIG LOVE 竹内朱莉 FINAL LIVE「アンジュルムより愛をこめて」',
+    site: '日本武道館',
+    time: '18:00',
+    note: 'ライブビューイング',
+  },
+  {
     month: 5,
     day: 15,
     group: Group.BEYO,
