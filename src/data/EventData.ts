@@ -11,6 +11,21 @@ const e2023: event[] = [
     time: '15:15/18:30',
   },
   {
+    month: 10,
+    day: 29,
+    group: Group.JUICE,
+    name: 'Juice=Juice 10周年企画展「10thで乾杯!!」',
+    site: 'TOWER RECORDS渋谷店 8F SpaceHACHIKAI',
+  },
+  {
+    month: 10,
+    day: 23,
+    group: Group.BEYO,
+    name: 'BEYOOOOONDS/雨ノ森 川海 岡村美波バースデーイベント2023',
+    site: "I'MA SHOW",
+    time: '17:20/19:40',
+  },
+  {
     month: 6,
     day: 21,
     group: Group.ANGE,

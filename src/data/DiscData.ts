@@ -194,7 +194,6 @@ export const discList: disc[] = [
       {
         name: '松浦亜弥コンサートツアー2004春 〜私と私とあなた〜',
         year: 2004,
-        doNotHave: true,
       },
       {
         name: '松浦亜弥コンサートツアー2004秋 〜◇松クリスタル◇代々木スペシャル〜',
@@ -393,6 +392,16 @@ export const discList: disc[] = [
         year: 2023,
       },
       { name: '演劇女子部「ビヨサイユ宮殿」', year: 2023, doNotHave: true },
+      {
+        name: 'BEYOOOOO2NDS CONCERT TOUR ～天高く、ビヨ燃ゆる秋～',
+        year: 2023,
+      },
+      {
+        name: 'BEYOOOOONDS CONCERT TOUR「NEO BEYO at BUDOOOOOKAN!!!!!!!!!!!!」',
+        year: 2023,
+        doNotHave: true,
+      },
+      { name: 'BEYOOOOOPHONIC', year: 2023, doNotHave: true },
     ],
   },
   {
@@ -969,6 +978,25 @@ export const discList: disc[] = [
         doNotHave: true,
       },
       { name: 'Hello! Project ～ONE PLUS ONE～ Season 1', year: 2022 },
+      {
+        name: 'COVERS -One on One-',
+        year: 2022,
+        doNotHave: true,
+      },
+      {
+        name: 'Hello! Project Year-End Party 2022 ～GOOD BYE & HELLO ! ～',
+        year: 2023,
+        doNotHave: true,
+      },
+      {
+        name: 'Hello! Project 2023 Winter ～TWO OF US～',
+        year: 2023,
+      },
+      {
+        name: 'Hello! Project ひなフェス 2023',
+        year: 2023,
+        doNotHave: true,
+      },
     ],
   },
 ];

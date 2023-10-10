@@ -11,7 +11,7 @@ const Select100 = () => {
         {SystemConst.Page.SELECT100}
       </Typography>
       <Typography sx={{ my: 1 }}>
-        {'個人的に好きな曲を100曲選んでみる（まだ途中）'}
+        {'個人的に好きな曲を100曲選ぶ（途中）'}
       </Typography>
       <SongList data={select100} />
     </Layout>

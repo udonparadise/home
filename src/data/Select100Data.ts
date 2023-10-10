@@ -240,6 +240,11 @@ export const select100: song[] = [
     year: 2005,
   },
   {
+    name: '素肌は熱帯夜',
+    artist: Group.OCHA,
+    year: 2022,
+  },
+  {
     name: 'Say! Hello!',
     artist: Group.HPK,
     year: 2014,

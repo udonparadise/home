@@ -28,6 +28,7 @@ export namespace Group {
   export const KOBUSHI = 'こぶしファクトリー';
   export const TSUBAKI = 'つばきファクトリー';
   export const BEYO = 'BEYOOOOONDS';
+  export const OCHA = 'OCHA NORMA';
   export const HPK = 'ハロプロ研修生';
   export const HPKU = 'ハロプロ研修生ユニット';
   export const ML = 'M-Line';

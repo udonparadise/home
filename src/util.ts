@@ -49,6 +49,9 @@ export function stringToColor(name: string) {
     case Group.GM:
       color = '#ffd700';
       break;
+    case Group.OCHA:
+      color = '#41b06c';
+      break;
     default:
       color = '#0075C2';
   }
