@@ -12,7 +12,6 @@ import RoomIcon from '@mui/icons-material/Room';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import PanToolIcon from '@mui/icons-material/PanTool';
 import LocalBarIcon from '@mui/icons-material/LocalBar';
-import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
 import LooksIcon from '@mui/icons-material/Looks';
 import FactoryIcon from '@mui/icons-material/Factory';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
@@ -37,7 +36,6 @@ const fav = [
     group: 'Juice=Juice',
     oshi: '江端妃咲 / 高木紗友希',
   },
-  { icon: <OndemandVideoIcon />, group: 'OCHA NORMA', oshi: '北原もも' },
   { icon: <LooksIcon />, group: 'ハロプロ研修生', oshi: '' },
 ];
 

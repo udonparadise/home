@@ -347,6 +347,10 @@ export const discList: disc[] = [
         name: 'Juice=Juice CONCERT TOUR ～terzo bis～',
         year: 2023,
       },
+      {
+        name: 'Juice=Juice 10th ANNIVERSARY CONCERT TOUR ～10th Juice at BUDOKAN～',
+        year: 2023,
+      },
     ],
   },
   {
@@ -399,9 +403,13 @@ export const discList: disc[] = [
       {
         name: 'BEYOOOOONDS CONCERT TOUR「NEO BEYO at BUDOOOOOKAN!!!!!!!!!!!!」',
         year: 2023,
+      },
+      { name: 'BEYOOOOOPHONIC', year: 2023 },
+      {
+        name: '演劇女子部「ビヨスパイ～消えたアタッシュケース～」',
+        year: 2024,
         doNotHave: true,
       },
-      { name: 'BEYOOOOOPHONIC', year: 2023, doNotHave: true },
     ],
   },
   {

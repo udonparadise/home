@@ -353,6 +353,11 @@ export const select100: song[] = [
     year: 2008,
   },
   {
+    name: 'ハムカツ黙示録',
+    artist: Group.BEYO,
+    year: 2022,
+  },
+  {
     name: '引越せない気持',
     artist: Group.MA,
     year: 2007,

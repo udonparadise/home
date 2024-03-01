@@ -67,7 +67,6 @@ const MenuItems: MenuElement[] = [
   { name: SystemConst.Page.EVENTS, path: SystemConst.Path.EVENTS },
   { name: SystemConst.Page.DISC, path: SystemConst.Path.DISC },
   { name: SystemConst.Page.SELECT100, path: SystemConst.Path.SELECT100 },
-  { name: SystemConst.Page.NOTE, path: SystemConst.Path.NOTE },
 ];
 
 const Layout: React.FC = ({ children }) => {

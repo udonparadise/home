@@ -1,6 +1,17 @@
 import { Group } from '../const';
 import { eventItem, event } from '../model/Event';
 
+const e2024: event[] = [
+  {
+    month: 3,
+    day: 2,
+    group: Group.HPK,
+    name: 'Hello! Project 研修生発表会 2024 3月「ミモザ」',
+    site: 'Zepp DiverCity',
+    time: '15:45',
+  },
+];
+
 const e2023: event[] = [
   {
     month: 11,
@@ -906,6 +917,7 @@ const e2013: event[] = [
 ];
 
 export const events: eventItem[] = [
+  { year: 2024, data: e2024 },
   { year: 2023, data: e2023 },
   { year: 2022, data: e2022 },
   { year: 2021, data: e2021 },
