@@ -3,6 +3,22 @@ import { eventItem, event } from '../model/Event';
 
 const e2024: event[] = [
   {
+    month: 6,
+    day: 14,
+    group: Group.JUICE,
+    name: 'Juice=Juice Concert Tour 2024 1=LINE 植村あかり卒業スペシャル',
+    site: '日本武道館',
+    time: '18:00',
+  },
+  {
+    month: 5,
+    day: 4,
+    group: Group.HPK,
+    name: 'Hello! Project 研修生発表会 2024 〜春の公開実力診断テスト〜',
+    site: 'TACHIKAWA STAGE GARDEN',
+    time: '16:15',
+  },
+  {
     month: 3,
     day: 2,
     group: Group.HPK,
