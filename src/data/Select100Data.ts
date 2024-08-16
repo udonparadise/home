@@ -131,6 +131,12 @@ export const select100: song[] = [
     year: 2021,
   },
   {
+    name: '女で地球は回ってる',
+    artist: Group.ROSY,
+    artistSub: "ハロプロ研修生ユニット'23",
+    year: 2023,
+  },
+  {
     name: '女の園',
     artist: Group.HPK,
     year: 2015,
@@ -347,6 +353,11 @@ export const select100: song[] = [
     year: 2015,
   },
   {
+    name: '灰toダイヤモンド',
+    artist: Group.BEYO,
+    year: 2024,
+  },
+  {
     name: 'パパンケーキ',
     artist: Group.MM,
     artistSub: '月島きらり starring 久住小春',
@@ -371,6 +382,11 @@ export const select100: song[] = [
     name: 'Vivid Midnight',
     artist: Group.JUICE,
     year: 2018,
+  },
+  {
+    name: 'プラトニック・プラネット',
+    artist: Group.JUICE,
+    year: 2019,
   },
   {
     name: 'プリーズ ミニスカ ポストウーマン!',
@@ -424,5 +440,10 @@ export const select100: song[] = [
     artist: Group.BEYO,
     artistSub: 'SeasoningS',
     year: 2021,
+  },
+  {
+    name: '悪いヒト',
+    artist: Group.HPK,
+    year: 2019,
   },
 ];

@@ -9,8 +9,8 @@ import {
 import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions';
 import WorkIcon from '@mui/icons-material/Work';
 import RoomIcon from '@mui/icons-material/Room';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import PanToolIcon from '@mui/icons-material/PanTool';
+import ThumbUpIcon from '@mui/icons-material/ThumbUp';
+import DiamondIcon from '@mui/icons-material/Diamond';
 import LocalBarIcon from '@mui/icons-material/LocalBar';
 import LooksIcon from '@mui/icons-material/Looks';
 import FactoryIcon from '@mui/icons-material/Factory';
@@ -23,14 +23,14 @@ const data = [
   { icon: <WorkIcon />, primary: 'プログラマ', secondary: '' },
   { icon: <RoomIcon />, primary: '長野', secondary: '' },
   {
-    icon: <FavoriteIcon />,
+    icon: <ThumbUpIcon />,
     primary: 'Hello! Project',
     secondary: 'ベリヲタの亡霊',
   },
 ];
 
 const fav = [
-  { icon: <PanToolIcon />, group: 'BEYOOOOONDS', oshi: '岡村美波' },
+  { icon: <DiamondIcon />, group: 'BEYOOOOONDS', oshi: '岡村美波' },
   {
     icon: <LocalBarIcon />,
     group: 'Juice=Juice',
