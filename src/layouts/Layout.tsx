@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { ReactNode, useState } from 'react';
 import {
   AppBar,
   Box,
@@ -69,7 +69,12 @@ const MenuItems: MenuElement[] = [
   { name: SystemConst.Page.SELECT100, path: SystemConst.Path.SELECT100 },
 ];
 
-const Layout: React.FC = ({ children }) => {
+type LayoutProps = {
+  children: ReactNode;
+};
+
+const Layout: React.FC<LayoutProps> = (props: LayoutProps) => {
+  const { children } = props;
   const matches = useMediaQuery('(min-width:600px)');
 
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
@@ -138,7 +143,7 @@ const Layout: React.FC = ({ children }) => {
             anchorEl={anchorEl}
             open={open}
             onClose={handleClose}
-            PaperProps={{ sx: { bgcolor: 'primary.main' } }}
+            slotProps={{ paper: { sx: { bgcolor: 'primary.main' } } }}
           >
             {MenuItems.map((menuItem) => {
               return <MenuItemMb item={menuItem} key={menuItem.name} />;
