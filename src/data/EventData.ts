@@ -4,6 +4,14 @@ import { eventItem, event } from '../model/Event';
 const e2024: event[] = [
   {
     month: 11,
+    day: 19,
+    group: Group.JUICE,
+    name: 'Juice=Juice Concert Tour 2024 TRIANGROOOVE2 Special',
+    site: '日本武道館',
+    time: '18:00',
+  },
+  {
+    month: 11,
     day: 4,
     group: Group.BEYO,
     name: 'BEYOOOOONDS CONCERT TOUR 2024 AUTUMN 「DISCOOOOOTHEQUE」',
@@ -12,11 +20,27 @@ const e2024: event[] = [
   },
   {
     month: 10,
+    day: 22,
+    group: Group.BEYO,
+    name: 'BEYOOOOONDS/雨ノ森 川海 岡村美波バースデーイベント2024',
+    site: '飛行船シアター',
+    time: '17:20',
+  },
+  {
+    month: 10,
     day: 19,
     group: Group.OCHA,
     name: 'OCHA NORMA LIVE TOUR 2024 season2 ～ウチらの地元は日本じゃん！～',
     site: '長野 CLUB JUNKBOX',
     time: '14:30/17:30',
+  },
+  {
+    month: 10,
+    day: 12,
+    group: Group.BEYO,
+    name: 'BEYOOOOONDS 5th Anniversary Event ～ BEY①②③④⑤NDS ～',
+    site: 'RaiBoC Hall 大ホール',
+    time: '17:00/19:30',
   },
   {
     month: 9,
