@@ -3,6 +3,23 @@ import { eventItem, event } from '../model/Event';
 
 const e2024: event[] = [
   {
+    month: 12,
+    day: 7,
+    group: Group.HPK,
+    name: 'Hello! Project 研修生発表会 2024 12月 「カトレア」',
+    site: 'Zepp DiverCity',
+    time: '15:45/18:30',
+  },
+  {
+    month: 11,
+    day: 28,
+    group: Group.ANGE,
+    name: 'ANGERME 10th ANNIVERSARY TOUR 2024 AUTUMN「ROOTS」川村文乃 FINAL ☆KIRAKIRA☆',
+    site: '日本武道館',
+    time: '18:00',
+    note: 'ライブビューイング',
+  },
+  {
     month: 11,
     day: 19,
     group: Group.JUICE,
