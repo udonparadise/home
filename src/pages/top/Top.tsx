@@ -15,7 +15,6 @@ import LocalBarIcon from '@mui/icons-material/LocalBar';
 import LooksIcon from '@mui/icons-material/Looks';
 import FactoryIcon from '@mui/icons-material/Factory';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
-import MarkunreadMailboxIcon from '@mui/icons-material/MarkunreadMailbox';
 import Layout from '../../layouts/Layout';
 
 const data = [
