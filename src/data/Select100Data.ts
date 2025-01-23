@@ -405,6 +405,12 @@ export const select100: song[] = [
     year: 2002,
   },
   {
+    name: '未来ハジマリ`',
+    artist: Group.ROSY,
+    artistSub: "ハロプロ研修生ユニット'24",
+    year: 2024,
+  },
+  {
     name: 'Memory 青春の光',
     artist: Group.MM,
     year: 1999,

@@ -31,18 +31,17 @@ const data = [
 
 const fav = [
   { icon: <DiamondIcon />, group: 'BEYOOOOONDS', oshi: '岡村美波' },
+  { icon: <LooksIcon />, group: 'ハロプロ研修生', oshi: '大坪茉乃' },
   {
     icon: <LocalBarIcon />,
     group: 'Juice=Juice',
-    oshi: '江端妃咲 / 高木紗友希',
+    oshi: '',
   },
-  { icon: <LooksIcon />, group: 'ハロプロ研修生', oshi: '' },
 ];
 
 const legend = [
   { icon: <FactoryIcon />, group: 'Berryz工房', oshi: '須藤茉麻' },
   { icon: <AutoAwesomeIcon />, group: 'GAM', oshi: '松浦亜弥 / 藤本美貴' },
-  { icon: <MarkunreadMailboxIcon />, group: 'S/mileage', oshi: '' },
 ];
 
 const Top = () => {
