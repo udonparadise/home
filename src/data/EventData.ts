@@ -3,6 +3,14 @@ import { eventItem, event } from '../model/Event';
 
 const e2025: event[] = [
   {
+    month: 4,
+    day: 27,
+    group: Group.HPK,
+    name: 'アンジュルム 10th Anniversary tour 2025春「桜梅桃李」',
+    site: 'ホクト文化ホール 中ホール',
+    time: '15:00',
+  },
+  {
     month: 3,
     day: 2,
     group: Group.HPK,
