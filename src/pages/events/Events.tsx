@@ -50,7 +50,7 @@ const Events = () => {
         >
           <Tab label="All" />
           {events.map((event) => {
-            return <Tab label={event.year} />;
+            return <Tab label={event.year} key={`tab-${event.year}`} />;
           })}
         </Tabs>
       </Box>
@@ -61,6 +61,7 @@ const Events = () => {
             index={index + 1}
             year={event.year}
             data={event.data}
+            key={`tabpanel-${event.year}`}
           />
         );
       })}
