@@ -351,6 +351,23 @@ export const discList: disc[] = [
         name: 'Juice=Juice 10th ANNIVERSARY CONCERT TOUR ～10th Juice at BUDOKAN～',
         year: 2023,
       },
+      {
+        name: 'Juice=Juice 10th Anniversary Concert Tour 2023 Final ～Juicetory～',
+        year: 2024,
+      },
+      {
+        name: 'Juice=Juice Concert Tour 2024 1=LINE 植村あかり卒業スペシャル',
+        year: 2024,
+      },
+      {
+        name: 'Juice=Juice Concert Tour 2024 TRIANGROOOVE2 Special',
+        year: 2025,
+      },
+      {
+        name: 'Juice=Juice Concert Tour 2025 Crimson×Azure Special',
+        year: 2025,
+        doNotHave: true,
+      },
     ],
   },
   {
@@ -410,6 +427,18 @@ export const discList: disc[] = [
         year: 2024,
         doNotHave: true,
       },
+      {
+        name: 'BEYOOOOONDS LIVE TOUR 2024 SPRING ～PERSOOOOONALITY「Wings of Dreams」～',
+        year: 2024,
+      },
+      {
+        name: 'BEYOOOOONDS CONCERT 2024 AUTUMN「DISCOOOOOTHEQUE BUDOOOOOKAN」',
+        year: 2025,
+      },
+      {
+        name: 'BEYOOOOONDS CONCERT 2025 SPRING ～Take Me Out To The BUDOOOOOKAN！「Treasury Island」～',
+        year: 2025,
+      },
     ],
   },
   {
@@ -455,6 +484,30 @@ export const discList: disc[] = [
       {
         name: 'つばきファクトリー CONCERT TOUR 〜ENCORE PARADE〜',
         year: 2023,
+      },
+      {
+        name: 'つばきファクトリー CONCERT TOUR ～Fomalhaut～',
+        year: 2023,
+      },
+      {
+        name: 'Hello! Project ひなフェス 2023 【つばきファクトリープレミアム ～浅倉樹々卒業スペシャル～】',
+        year: 2023,
+        doNotHave: true,
+      },
+      {
+        name: 'つばきファクトリー コンサートツアー 2023秋 可惜夜～山岸理子・岸本ゆめの 卒業スッぺシャル～暁',
+        year: 2024,
+        doNotHave: true,
+      },
+      {
+        name: "つばきファクトリー コンサートツアー 2024 春「C'mon Everybody !」新沼希空卒業スッペシャル ～ Ready Go！Now！～",
+        year: 2024,
+        doNotHave: true,
+      },
+      {
+        name: 'つばきファクトリー 10th Anniversary Concert at BUDOKAN ～OUR DAYS～',
+        year: 2025,
+        doNotHave: true,
       },
     ],
   },
@@ -585,6 +638,36 @@ export const discList: disc[] = [
       {
         name: 'アンジュルム CONCERT TOUR 〜The ANGERME Encore〜',
         year: 2022,
+        doNotHave: true,
+      },
+      {
+        name: 'アンジュルム concert 2022 autumn final　ANGEL SMILE',
+        year: 2023,
+        doNotHave: true,
+      },
+      {
+        name: 'ANGERME CONCERT 2023 BIG LOVE 竹内朱莉 FINAL LIVE「アンジュルムより愛をこめて」',
+        year: 2024,
+        doNotHave: true,
+      },
+      {
+        name: 'アンジュルム コンサートツアー 2023秋 11人のアンジュルム ～ BEST ELEVEN ～',
+        year: 2024,
+        doNotHave: true,
+      },
+      {
+        name: 'ANGERME CONCERT 2024 SECRET SECRET 佐々木莉佳子 FINAL「愛情の世界へ、君もおいでよ」',
+        year: 2024,
+        doNotHave: true,
+      },
+      {
+        name: 'ANGERME 10th ANNIVERSARY TOUR 2024 AUTUMN「ROOTS」川村文乃 FINAL ☆KIRAKIRA☆',
+        year: 2025,
+        doNotHave: true,
+      },
+      {
+        name: 'アンジュルム 10th Anniversary tour 2025春 「桜梅桃李」上國料萌衣 FINAL ～お先はまっキラ！～',
+        year: 2025,
         doNotHave: true,
       },
     ],
@@ -1003,6 +1086,26 @@ export const discList: disc[] = [
       {
         name: 'Hello! Project ひなフェス 2023',
         year: 2023,
+        doNotHave: true,
+      },
+      {
+        name: 'Hello! Project 25th ANNIVERSARY CONCERT「Theme Of Hello!」「ALL FOR ONE & ONE FOR ALL!」',
+        year: 2024,
+        doNotHave: true,
+      },
+      {
+        name: 'Hello! Project ひなフェス 2024',
+        year: 2024,
+        doNotHave: true,
+      },
+      {
+        name: 'Hello! Project ひなフェス 2025',
+        year: 2025,
+        doNotHave: true,
+      },
+      {
+        name: '',
+        year: 202,
         doNotHave: true,
       },
     ],
